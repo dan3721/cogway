@@ -1,0 +1,44 @@
+
+
+// test still: square
+// let dimension = 4
+// let grid = Array(dimension).fill(0).map(x => Array(dimension).fill(0))
+// grid[1][1] = 1
+// grid[2][1] = 1
+// grid[1][2] = 1
+// grid[2][2] = 1
+
+// test oscillator
+// let dimension = 5
+// var grid = Array(dimension).fill(0).map(x => Array(dimension).fill(0))
+// grid[2][1] = 1
+// grid[2][2] = 1
+// grid[2][3] = 1
+
+// test 3x3
+// let dimension = 3
+// let grid = Array(dimension).fill(0).map(x => Array(dimension).fill(0))
+// grid[1][1] = 1
+// grid[0][0] = 1
+
+// test grid
+// let dimension = 32
+// let grid = Array(dimension).fill(0).map(x => Array(dimension).fill(0))
+//
+// // still square
+// grid[1][1] = 1
+// grid[2][1] = 1
+// grid[1][2] = 1
+// grid[2][2] = 1
+//
+// // oscillator ---
+// grid[16][16] = 1
+// grid[16][17] = 1
+// grid[16][18] = 1
+//
+// grid[8][8] = 1
+// grid[8][9] = 1
+// grid[9][9] = 1
+// grid[9][10] = 1
+// // grid[9][11] = 1
+// // grid[8][11] = 1
