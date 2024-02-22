@@ -44,7 +44,7 @@ class App extends Component {
     return Array(DIMENSION_GRID_X).fill(0).map(x => Array(DIMENSION_GRID_Y).fill(0))
   }
 
-  randomGrid() {
+   randomGrid() {
     let grid = this.newGrid()
     for (let i = 0; i < grid.length; i++) {
       for (let j = 0; j < grid[i].length; j++) {
